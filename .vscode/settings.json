@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "__locale": "c",
+        "locale": "c",
+        "ram_config_guardada.h": "c",
+        "ram_main.h": "c",
+        "ram_configuracion.h": "c",
+        "inicializar_memoria.h": "c"
+    }
+}
