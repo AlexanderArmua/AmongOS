@@ -23,8 +23,6 @@ int main(int argc, char** argv) {
 		return EXIT_FAILURE;
 	}
 
-	// TODO: Iniciar la ram
-
 	error = levantar_servidor();
 	if (error != STATUS_OK) {
 		cerrar_todo();
@@ -38,7 +36,6 @@ int main(int argc, char** argv) {
 
 void cerrar_todo() {
 	cerrar_conexiones(true); // Hasta que no se cierre el hilo que escuchan las notificaciones no apaga  
-	destruir_memoria();
 	destroy_configuracion();
 	destroy_log();
 }

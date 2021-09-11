@@ -7,8 +7,6 @@
 #include "../../../shared/codigo_error.h"
 #include "../../../shared/thread_safe_value.h"
 #include "../../../shared/estructura_compartida.h"
-#include "../gestion_archivos/gestion_archivos.h"
-#include "../gestion_archivos/sabotajes.h"
 
 
 /**

@@ -1,4 +1,4 @@
-#include "../src/configuracion/ifilesystem_configuracion.h"
+#include "../src/configuracion/filesystem_configuracion.h"
 #include <cspecs/cspec.h>
 #include <stdlib.h>
 

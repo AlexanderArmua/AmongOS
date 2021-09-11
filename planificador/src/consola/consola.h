@@ -12,9 +12,6 @@
 #include <commons/string.h>
 #include <commons/temporal.h>
 
-#include "../planificador/planificador.h"
-#include "../tripulante/tripulante.h"
-
 void levantar_consola();
 
 typedef void Funcion();

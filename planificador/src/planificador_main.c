@@ -19,8 +19,6 @@ int main(int argc, char** argv) {
 		return EXIT_FAILURE;
 	}
 
-	iniciar_registro_tripulantes();
-
 	pthread_t filesystem_handshake = thread_ejecutar_funcion(filesystem_enviar_handshake);
 	pthread_t ram_handshake = thread_ejecutar_funcion(ram_enviar_handshake);
 

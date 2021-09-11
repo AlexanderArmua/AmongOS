@@ -1,9 +1,3 @@
-/*
- * ifilesystem_configuracion_guardada.h
- *
- *  Created on: 2 may. 2021
- *      Author: utnso
- */
 
 #ifndef CONFIGURACION_IFILESYSTEM_CONFIG_GUARDADA_H_
 #define CONFIGURACION_IFILESYSTEM_CONFIG_GUARDADA_H_

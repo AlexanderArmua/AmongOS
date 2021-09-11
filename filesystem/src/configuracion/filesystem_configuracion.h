@@ -10,7 +10,7 @@
 #include <commons/config.h>
 #include <commons/string.h>
 
-#include "ifilesystem_configuracion_guardada.h"
+#include "filesystem_configuracion_guardada.h"
 
 #include "../../../shared/codigo_error.h"
 

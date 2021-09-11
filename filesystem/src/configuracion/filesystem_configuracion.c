@@ -1,5 +1,4 @@
-#include "ifilesystem_configuracion.h"
-
+#include "filesystem_configuracion.h"
 
 // Declaracion de funciones privadas
 int set_variable_str(t_config * config, char * param_leer, char ** param); // Se usa para setear un string leyendo del archivo config

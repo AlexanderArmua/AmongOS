@@ -4,8 +4,6 @@
 
 #include <string.h>
 
-#include "../esquemas/general.h"
-
 #include "../../../shared/logger.h"
 #include "../../../shared/protocolo.h"
 #include "../../../shared/codigo_error.h"

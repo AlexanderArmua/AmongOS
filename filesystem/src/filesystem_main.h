@@ -6,7 +6,7 @@
 
 #include <sys/mman.h>
 
-#include "configuracion/ifilesystem_configuracion.h"
+#include "configuracion/filesystem_configuracion.h"
 #include "conexion_planificador/conexion_planificador.h"
 #include <math.h>
 #include <signal.h>

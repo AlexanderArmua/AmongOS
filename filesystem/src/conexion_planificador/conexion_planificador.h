@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #include <commons/collections/queue.h>
 
-#include "../configuracion/ifilesystem_configuracion.h"
+#include "../configuracion/filesystem_configuracion.h"
 
 #include "../../../shared/logger.h"
 #include "../../../shared/conexion.h"

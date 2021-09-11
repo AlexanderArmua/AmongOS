@@ -14,12 +14,8 @@ int recibir_mensaje_planificador(int socket_planificador) {
 int manejar_mensaje_planificador(t_prot_mensaje * mensaje) {
 	bool seguir_esperando_mensajes = true;
 	void dejar_de_esperar_mensajes() { seguir_esperando_mensajes = false; }
-	int codigo_mensaje;
 
 	while (seguir_esperando_mensajes) {
-		t_patota * patota;
-		t_tripulante * tripulante;
-		int error;
 
 		switch (mensaje->head) {
 		case HANDSHAKE_D_R:

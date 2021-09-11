@@ -34,17 +34,10 @@ int main(int argc, char** argv) {
 
 void cerrar_todo() {
 	cerrar_conexiones(true); // Hasta que no se cierre el hilo que escuchan las notificaciones no apaga
-
-	free(superbloque_bitmap);
-	free(puntero_a_bits);
-	free(copyblocks);
-	bitarray_destroy(bitmap_bitarray);
 	destroy_configuracion();
-	destruir_mutex_filesystem();
 	destroy_log();
 }
 
 void manejar_signal(int n){
-	enviar_sabotaje_planificador();
 	loggear_warning("Llego la signal para mandar sabotaje, TODO: Cambiar la funcion en filesystem_main.c:35 para que cumpla la funcion");
 }
